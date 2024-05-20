@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="header_nav">
+        <a href="#">
+          <img class="logo" src="./icon/logo.svg" alt="logo" />
+        </a>
+        <ul class="header_nav_list">
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Сферы деятельности</a></li>
+          <li><a href="#">Лицензии</a></li>
+          <li><a href="#"> Объекты</a></li>
+          <li><a href="#">Охрана труда и качество</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="header_nav_list_contact">
+          <li><a href="#">+7 (846) 254-13-73</a></li>
+          <li><a href="#">info@roof-prof.ru</a></li>
+        </ul>
+        <div class="header_nav_call_menu">
+          <img class="call" src="./icon/call.svg" alt="call" />
+          <div class="menu">
+            <input type="checkbox" id="open" />
+            <label for="open">
+              <img src="./icon/menu.svg" alt="burger" />
+            </label>
+            <div class="menu_burger">
+              <div class="menu_burger_header">
+                <img class="logo_burger" src="./icon/logo.svg" alt="logo" />
+                <div class="menu_burger_header_call_close">
+                  <img src="./icon/call.svg" alt="call" />
+                  <label for="open">
+                    <img src="./icon/x.svg" alt="close" />
+                  </label>
+                </div>
+              </div>
+              <ul>
+                <li>
+                  <a href="#"> О компании </a>
+                  <img src="./icon/chevron-right.svg" alt="right" />
+                </li>
+                <li>
+                  <a href="#"> Сферы деятельности</a
+                  ><img src="./icon/chevron-right.svg" alt="right" />
+                </li>
+                <li>
+                  <a href="#">Лицензии </a>
+                  <img src="./icon/chevron-right.svg" alt="right" />
+                </li>
+                <li>
+                  <a href="#">Объекты </a
+                  ><img src="./icon/chevron-right.svg" alt="right" />
+                </li>
+                <li>
+                  <a href="#"> Охрана труда и качество</a
+                  ><img src="./icon/chevron-right.svg" alt="right" />
+                </li>
+                <li>
+                  <a href="#"> Контакты</a
+                  ><img src="./icon/chevron-right.svg" alt="right" />
+                </li>
+              </ul>
+              <div class="menu_burger_contact">
+                <div>
+                  <a href="#">
+                    <p>+7 (846) 254-13-73</p>
+                  </a>
+                  <a href="#"><img src="./icon/call_blue.svg" alt="call" /></a>
+                </div>
+                <div>
+                  <a href="#">
+                    <p>info@roof-prof.ru</p>
+                  </a>
+                  <a href="#"><img src="./icon/mail.svg" alt="mail" /></a>
+                </div>
+                <div>
+                  <a href="#">
+                    <p>443111, Россия, г. Самара, ул. Урицкого 19, офис 502</p>
+                  </a>
+                  <a href="#"
+                    ><img src="./icon/location.svg" alt="location"
+                  /></a>
+                </div>
+              </div>
+              <div class="menu_burger_footer">
+                <div>
+                  <a href="#"
+                    ><img src="./icon/arrow-right_blue.svg" alt="arrow"
+                  /></a>
+                  <a href="#">Предложить партнерство</a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><img src="./icon/arrow-right_blue.svg" alt="arrow"
+                  /></a>
+                  <a href="#">Задать вопрос</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first_swiper">
+        <div
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+          class="swiper mySwiper"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="parallax-bg"
+                style="background-image: url(./img/swirer_font1.png)"
+                data-swiper-parallax="-23%"
+              ></div>
+
+              <div class="title" data-swiper-parallax="-300">
+                <button>Реализуем объекты</button>
+              </div>
+              <div class="subtitle" data-swiper-parallax="-300">
+                <h1>Нефтегазового комплекса</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="parallax-bg"
+                style="background-image: url(./img/swirer_font2.png)"
+                data-swiper-parallax="-23%"
+              ></div>
+
+              <div class="title" data-swiper-parallax="-300">
+                <button>Реализуем объекты</button>
+              </div>
+              <div class="subtitle" data-swiper-parallax="-200">
+                <h1>Электроэнергетического комплекса</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="parallax-bg"
+                style="background-image: url(./img/swirer_font3.png)"
+                data-swiper-parallax="-23%"
+              ></div>
+
+              <div class="title" data-swiper-parallax="-300">
+                <button>Реализуем объекты</button>
+              </div>
+              <div class="subtitle" data-swiper-parallax="-200">
+                <h1>Промышленного строительства</h1>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="parallax-bg"
+                style="background-image: url(./img/swirer_font4.png)"
+                data-swiper-parallax="-23%"
+              ></div>
+
+              <div class="title" data-swiper-parallax="-300">
+                <button>Реализуем объекты</button>
+              </div>
+              <div class="subtitle" data-swiper-parallax="-200">
+                <h1>Гражданского строительства</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="row_next_prev">
+          <div class="swiper-button-next">
+            <img src="./icon/rownext.svg.svg" alt="rownext" />
+          </div>
+          <div class="swiper-button-prev">
+            <img src="./icon/rowprev.svg.svg" alt="rowprev" />
+          </div>
+        </div>
+      </section>
+      <section class="activity">
+        <div class="container">
+          <div class="activity_inner">
+            <h2>Сферы деятельности</h2>
+            <div class="activity_inner_box">
+              <div class="activity_inner_box1">
+                <div class="activity_inner_backbox1_img1">
+                  <p>Нефтегазовый сектор</p>
+                  <img
+                    class="activity_inner_box1_img1"
+                    src="./img/activite1.svg"
+                    alt="foto"
+                  />
+                </div>
+                <div class="activity_inner_backbox1_img2">
+                  <p>Электроэнергетическое строительство</p>
+                  <img
+                    class="activity_inner_box1_img2"
+                    src="./img/activete2.svg"
+                    alt="foto"
+                  />
+                </div>
+              </div>
+
+              <div class="activity_inner_box2">
+                <div class="activity_inner_backbox2_img1">
+                  <p>Гражданское строительство</p>
+                  <img
+                    class="activity_inner_box2_img1"
+                    src="./img/activete3.svg"
+                    alt="foto"
+                  />
+                </div>
+                <div class="activity_inner_backbox2_img2">
+                  <p>Промышленное строительство</p>
+                  <img
+                    class="activity_inner_box2_img2"
+                    src="./img/activete4.svg"
+                    alt="foto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ruf_profi_this">
+        <div class="container">
+          <div class="ruf_profi_this_inner">
+            <h2>Руф Профи это</h2>
+            <div class="ruf_profi_this_inner_box">
+              <div>
+                <h3>11</h3>
+                <h4>Лет стабильной работы</h4>
+                <p>Компания официально начала работу 27 июля 2011 года.</p>
+              </div>
+              <div>
+                <h3>290</h3>
+                <h4>Сотрудников</h4>
+                <p>
+                  Каждый из которых является профессионалом в своей области.
+                </p>
+              </div>
+              <div>
+                <h3>54</h3>
+                <h4>Реализованных объектов</h4>
+                <p>
+                  Объекты Руф Профи расположены по всей территории Российской
+                  Федерации.
+                </p>
+              </div>
+              <div class="ruf_profi_map">
+                <h4>Реализованные объекты на территориях</h4>
+                <ul>
+                  <li>
+                    <img src="./icon/green chek.svg" alt="green chek" />
+                    Самарская область
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Ульяновская область
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Пензенская область
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Челябинская область
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Саратовская область
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Волгоградская область
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Республика Башкортостан
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Республика Татарстан
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Республика Мордовия
+                  </li>
+                  <li>
+                    <img
+                      src="./icon/green chek.svg"
+                      alt="green chek"
+                    />Краснодарский край
+                  </li>
+                </ul>
+                <div>
+                  <img src="./icon/red3 icon.svg" alt="icon" />
+                  <p>
+                    Везде можно втретить бренд Руф Профи, являющийся несомненным
+                    знаком качества выполняемых и уже выполненных работ.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="implemented_objects">
+        <div class="container">
+          <div class="implemented_objects_inner">
+            <h2>Реализованные объекты</h2>
+            <div class="implemented_objects_inner_box">
+              <div>
+                <a href="#">
+                  <img src="./img/implemented_objects_img1.jpg" alt="jpg" />
+                  <h5>
+                    Капитальный ремонт котлов котельной НПС "Любецкая".
+                    Самарское РНУ
+                  </h5>
+                  <span>Направление</span>
+                  <p>Нефтегаз</p>
+                  <span>Срок реализации </span>
+                  <p>05.04.2021 – 10.08.2021</p>
+                  <span>Заказчик</span>
+                  <p>АО «Транснефть-Приволга»</p>
+                  <span>Местоположение</span>
+                  <p>Самарская область</p>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="./img/implemented_objects_img2.jpg" alt="jpg" />
+                  <h5>
+                    Капитальный ремонт ЦРЭБ №423 БПО. Волгоградского РНУ
+                    Капитальный ремонт производственного корпуса промышленной
+                    базы ВРНУ №999. Волгоградского РНУ
+                  </h5>
+                  <span>Направление</span>
+                  <p>Нефтегаз</p>
+                  <span>Срок реализации </span>
+                  <p>05.04.2021 – 10.08.2021</p>
+                  <span>Заказчик</span>
+                  <p>АО «Транснефть-Приволга»</p>
+                  <span>Местоположение</span>
+                  <p>Волгоградская область</p>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="./img/implemented_objects_img3.jpg" alt="jpg" />
+                  <h5>
+                    Оперативная СИКН на 1707км МН УБКУА. Туймазинское НУ.
+                    Техническое перевооружение
+                  </h5>
+                  <h5>
+                    Оперативная СИКН на 1917км МН НКК. Туймазинское НУ.
+                    Техническое перевооружение
+                  </h5>
+                  <span>Направление</span>
+                  <p>Нефтегаз</p>
+                  <span>Срок реализации </span>
+                  <p>05.04.2021 – 10.08.2021</p>
+                  <span>Заказчик</span>
+                  <p>АО «Транснефть-Урал»</p>
+                  <span>Местоположение</span>
+                  <p>
+                    Челябинская область, Республика Башкортостан, Курганская
+                    область
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="/img/implemented_objects_img4.jpg" alt="jpg" />
+                  <h5>
+                    Приведение внутриплощадочных проездов территории НПС
+                    "Любецкая" к нормативному состоянию
+                  </h5>
+                  <span>Направление</span>
+                  <p>Нефтегаз</p>
+                  <span>Срок реализации </span>
+                  <p>05.04.2021 – 10.08.2021</p>
+                  <span>Заказчик</span>
+                  <p>АО «Транснефть-Урал»</p>
+                  <span>Местоположение</span>
+                  <p>
+                    Челябинская область, Республика Башкортостан, Курганская
+                    область
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="./img/implemented_objects_img5.jpg" alt="jpg" />
+                  <h5>
+                    Приведение в нормативное состояние зданий и сооружений КПП
+                    Бугурусланского РНУ
+                  </h5>
+                  <span>Направление</span>
+                  <p>Нефтегаз</p>
+                  <span>Срок реализации </span>
+                  <p>05.04.2021 – 10.08.2021</p>
+                  <span>Заказчик</span>
+                  <p>АО «Транснефть-Урал»</p>
+                  <span>Местоположение</span>
+                  <p>
+                    Челябинская область, Республика Башкортостан, Курганская
+                    область
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="./img/implemented_objects_img6.jpg" alt="jpg" />
+                  <h5>
+                    Замена изоляционного покрытия МН. Техническое перевооружение
+                  </h5>
+                  <span>Направление</span>
+                  <p>Нефтегаз</p>
+                  <span>Срок реализации </span>
+                  <p>05.04.2021 – 10.08.2021</p>
+                  <span>Заказчик</span>
+                  <p>АО «Транснефть-Урал»</p>
+                  <span>Местоположение</span>
+                  <p>
+                    Челябинская область, Республика Башкортостан, Курганская
+                    область
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="btn">
+              <button>Все объекты</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="implemented_objects_swiper">
+        <div class="container">
+          <h2>Реализованные объекты</h2>
+          <div class="swiper mySwiper_objects">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide object_swiper">
+                <div>
+                <a href="#">
+                  <img src="./img/implemented_objects_img1.jpg" alt="jpg" />
+                  <h5>
+                    Капитальный ремонт котлов котельной НПС "Любецкая".
+                    Самарское РНУ
+                  </h5>
+                  <span>Направление</span>
+                  <p>Нефтегаз</p>
+                  <span>Срок реализации </span>
+                  <p>05.04.2021 – 10.08.2021</p>
+                  <span>Заказчик</span>
+                  <p>АО «Транснефть-Приволга»</p>
+                  <span>Местоположение</span>
+                  <p>Самарская область</p>
+                </a>
+              </div>
+            </div>
+              <div class="swiper-slide object_swiper">
+                <div>
+                  <a href="#">
+                    <img src="./img/implemented_objects_img2.jpg" alt="jpg" />
+                    <h5>
+                      Капитальный ремонт ЦРЭБ №423 БПО. Волгоградского РНУ
+                      Капитальный ремонт производственного корпуса промышленной
+                      базы ВРНУ №999. Волгоградского РНУ
+                    </h5>
+                    <span>Направление</span>
+                    <p>Нефтегаз</p>
+                    <span>Срок реализации </span>
+                    <p>05.04.2021 – 10.08.2021</p>
+                    <span>Заказчик</span>
+                    <p>АО «Транснефть-Приволга»</p>
+                    <span>Местоположение</span>
+                    <p>Волгоградская область</p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide object_swiper">
+                <div>
+                  <a href="#">
+                    <img src="./img/implemented_objects_img3.jpg" alt="jpg" />
+                    <h5>
+                      Оперативная СИКН на 1707км МН УБКУА. Туймазинское НУ.
+                      Техническое перевооружение
+                    </h5>
+                    <h5>
+                      Оперативная СИКН на 1917км МН НКК. Туймазинское НУ.
+                      Техническое перевооружение
+                    </h5>
+                    <span>Направление</span>
+                    <p>Нефтегаз</p>
+                    <span>Срок реализации </span>
+                    <p>05.04.2021 – 10.08.2021</p>
+                    <span>Заказчик</span>
+                    <p>АО «Транснефть-Урал»</p>
+                    <span>Местоположение</span>
+                    <p>
+                      Челябинская область, Республика Башкортостан, Курганская
+                      область
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide object_swiper">
+                <div>
+                  <a href="#">
+                    <img src="/img/implemented_objects_img4.jpg" alt="jpg" />
+                    <h5>
+                      Приведение внутриплощадочных проездов территории НПС
+                      "Любецкая" к нормативному состоянию
+                    </h5>
+                    <span>Направление</span>
+                    <p>Нефтегаз</p>
+                    <span>Срок реализации </span>
+                    <p>05.04.2021 – 10.08.2021</p>
+                    <span>Заказчик</span>
+                    <p>АО «Транснефть-Урал»</p>
+                    <span>Местоположение</span>
+                    <p>
+                      Челябинская область, Республика Башкортостан, Курганская
+                      область
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide object_swiper">
+                <div>
+                  <a href="#">
+                    <img src="./img/implemented_objects_img5.jpg" alt="jpg" />
+                    <h5>
+                      Приведение в нормативное состояние зданий и сооружений КПП
+                      Бугурусланского РНУ
+                    </h5>
+                    <span>Направление</span>
+                    <p>Нефтегаз</p>
+                    <span>Срок реализации </span>
+                    <p>05.04.2021 – 10.08.2021</p>
+                    <span>Заказчик</span>
+                    <p>АО «Транснефть-Урал»</p>
+                    <span>Местоположение</span>
+                    <p>
+                      Челябинская область, Республика Башкортостан, Курганская
+                      область
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide object_swiper">
+                <div>
+                <a href="#">
+                  <img src="./img/implemented_objects_img6.jpg" alt="jpg" />
+                  <h5>
+                    Замена изоляционного покрытия МН. Техническое перевооружение
+                  </h5>
+                  <span>Направление</span>
+                  <p>Нефтегаз</p>
+                  <span>Срок реализации </span>
+                  <p>05.04.2021 – 10.08.2021</p>
+                  <span>Заказчик</span>
+                  <p>АО «Транснефть-Урал»</p>
+                  <span>Местоположение</span>
+                  <p>
+                    Челябинская область, Республика Башкортостан, Курганская
+                    область
+                  </p>
+                </a>
+              </div>
+            </div>             
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="btn">
+            <button>Все объекты</button>
+          </div>
+        </div>
+      </section>
+      <section class="licenses_and_certificates">
+        <div class="container">
+          <div class="licenses_and_certificates_inner">
+            <h2>Лицензии и сертификаты</h2>
+            <div class="types_of_licenses">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    Лицензия МЧС
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    Никомакс
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    Свидетельство  АЦСТ-118-01890 - НГДО п. 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    Лицензия ФСБ
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    Свидетельство АЦСТ-118-01848 - СК п.1
+                  </a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    Свидетельство АЦСТ-118-01848 - СК п.2
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    Свидетельство АЦСТ-118-01850 - СК п.3                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    Сертификат СМК ГОСТ
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="./icon/document-text.svg" alt="icon">
+                    СРО
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+    <footer class="footer">
+      
+      <div class="footer_fon_box"></div>
+      
+      <div class="footer_inner">
+        <div class="container">
+<div class="footer_inner_top_box">
+<div class="footer_inner_logo_box">
+          <img src="./icon/logo white.svg" alt="logo">
+          <ul>
+            <li class="namber">
+              +7 (846) 254-13-73
+            </li>
+            <li>
+              443111, Россия, г. Самара, ул. Урицкого 19, офис 502
+            </li>
+            <li>
+              <a href="#">
+                info@roof-prof.ru
+              </a>
+            </li>
+          </ul>
+        </div>
+<div class="footer_inner_center_box">
+<ul>
+  <li class="li_heder">Сферы деятельности</li>
+  <li>Нефтегазовый сектор</li>
+  <li>Электроэнергетическое строительство</li>
+  <li>Гражданское строительство</li>
+  <li>Промышленное строительство</li>
+
+  <ul class="list_blue">
+<li>
+    <a href="#">
+      <img src="./icon/arrow-right_blue.svg" alt="icon">
+   <span>Предложить партнерство</span> 
+    </a>    
+  </li>
+<li>
+    <a href="#">
+      <img src="./icon/arrow-right_blue.svg" alt="icon">
+   <span>Задать вопрос</span> 
+    </a>    
+  </li>
+
+  </ul>
+  
+  
+</ul>
+</div>
+<div class="footer_inner_left_box">
+          <ul>
+            <li class="li_heder">О компании</li>
+            <li>Лицензии и сертификаты</li>
+            <li>Реализованные объекты</li>
+            <li>Охрана труда и качество</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+</div>
+<ul class="list_blue_375">
+  <li>
+      <a href="#">
+        <img src="./icon/arrow-right_blue.svg" alt="icon">
+     <span>Предложить партнерство</span> 
+      </a>    
+    </li>
+  <li>
+      <a href="#">
+        <img src="./icon/arrow-right_blue.svg" alt="icon">
+     <span>Задать вопрос</span> 
+      </a>    
+    </li>
+  
+    </ul>
+
+
+
+<div class="footer_inner_bottom_box">
+  <ul>
+    <li class="first">© 2022. ООО «Руф Профи»</li>
+    <li class="second">Политика конфиденциальности</li>
+    <li class="third">Разработка сайта Varnoff Studio</li>
+  </ul>
+</div>
+</div>
+</div>
+</footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        speed: 600,
+        parallax: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+
+      var swiper = new Swiper(".mySwiper_objects", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    </script>
+  </body>
+</html>
